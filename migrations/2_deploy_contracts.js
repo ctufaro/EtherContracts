@@ -1,7 +1,7 @@
 var ApprovalContract = artifacts.require("./ApprovalContract");
-var DumbContract = artifacts.require("./DumbContract");
+var BettingContract = artifacts.require("./Betting");
 
 module.exports = function(deployer) {
   //deployer.deploy(ApprovalContract);
-  deployer.deploy(DumbContract);
+  deployer.deploy(BettingContract);
 }
